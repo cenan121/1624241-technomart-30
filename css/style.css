@@ -184,7 +184,7 @@ img {
 }
 
 
-.features-list a:not(:nth-of-type(4)){
+.features-list a{
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -194,6 +194,10 @@ img {
 
 .features-list a:active{
   background-color: rgba(169,169,169, 0.3);
+}
+
+.slider a{
+  background-color: var(--basic-amaranth);
 }
 .slider a:hover{
   background-color: #CA2C37;
