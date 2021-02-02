@@ -20,7 +20,7 @@ body {
   min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "PT Sans", sans-serif;
   font-weight: normal;
   color: var(--basic-black)
 }
@@ -102,11 +102,11 @@ img {
   color: var(--basic-white);
 }
 
-.top-header a:nth-of-type(3) {
+.order {
   background-color: var(--basic-apple);
 }
 
-.top-header a:nth-of-type(3):hover {
+.order:hover {
   background-color: #5FBB2D;
 }
 
@@ -257,15 +257,16 @@ img {
   line-height: 18px;
 }
 
-.popular-product-list p:nth-of-type(2n+1) {
+.old-price {
   text-decoration: line-through;
   color: var(--basic-dark-gray)
 }
 
-.popular-product-list p:nth-of-type(2n+2) {
-  background: url("../img/shape.png") no-repeat;
+.new-price {
+  width: 141px;
+  height: 38px;
+  background-color: var(--basic-amaranth);
 }
-
 
 /*services*/
 .services {
@@ -290,12 +291,13 @@ img {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
-  color: var(--basic-gulf-blue)
+  color: var(--basic-gulf-blue);
 }
 
 .button {
   font-size: 21px;
   line-height: 30px;
+  background-color: var(--basic-gulf-blue);
   color: var(--basic-white);
   border: none;
 
@@ -399,6 +401,7 @@ img {
 .footer-copyright a:hover{
   color: var(--basic-amaranth);
 }
+
 
 
 
