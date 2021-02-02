@@ -20,7 +20,7 @@ body {
   min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-family: Cuprum, Verdana, sans-serif;
   font-weight: normal;
   color: var(--basic-black)
 }
@@ -266,6 +266,7 @@ img {
   width: 141px;
   height: 38px;
   background-color: var(--basic-amaranth);
+  color: var(--basic-white);
 }
 
 /*services*/
@@ -303,10 +304,14 @@ img {
 
 }
 
-.button:hover {
+.button:not(.services-button):hover {
   background-color: var(--basic-bunting);
 }
 
+.services-button{
+  background-color: var(--basic-white);
+  color: var(--basic-gulf-blue)
+}
 /*description*/
 
 .description p,
