@@ -429,6 +429,10 @@ img {
 
 /*catalog*/
 
+.basket{
+  background-color: var(--basic-amaranth);
+}
+
 .bread-crumbs{
   list-style-type: none;
 }
