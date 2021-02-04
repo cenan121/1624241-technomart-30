@@ -517,6 +517,17 @@ label{
 .page-toggle-button{
   border: 1px solid #E5E5E5;
 }
+
+.page-number a{
+  color: var(--basic-black);
+}
+.page-number-sel{
+  background: var(--basic-amaranth);
+}
+
+.page-number-sel a{
+  color: var(--basic-white);
+}
 /*catalog-short-description*/
 
 .short-description{
@@ -575,6 +586,4 @@ label{
   border: 1px solid var(--basic-amaranth);
 }
 
-.page-number-sel{
-  background: var(--basic-amaranth);
-}
+
