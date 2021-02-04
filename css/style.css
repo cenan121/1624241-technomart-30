@@ -533,6 +533,7 @@ label{
   line-height: 24px;
 }
 
+
 /*catalog-hover-active*/
 
 
@@ -572,4 +573,8 @@ label{
 .page-number:active,
 .page-toggle-button:active{
   border: 1px solid var(--basic-amaranth);
+}
+
+.page-number-sel{
+  background: var(--basic-amaranth);
 }
