@@ -24,15 +24,17 @@
         <input type="text" placeholder="Поиск:">
         <button type="submit">Найти</button>
       </form>
-        <a href="#"> Закладки: 0 </a>
-        <a href="#"> Корзина: 0 </a>
-        <a class="order" href="#"> Оформить заказ </a>
+      <a href="#"> Закладки: 0 </a>
+      <a href="#"> Корзина: 0 </a>
+      <a class="order" href="#"> Оформить заказ </a>
     </div>
   </div>
   <div class="middle-header">
     <h1>Интернет-магазин строительных материалов и инструментов для дома</h1>
-    <a class="tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
-    <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+    <div>
+      <a class="tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
+      <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+    </div>
     <div class="user-navigation">
       <a class="login-link" href="#">Войти</a>
       <a class="registration-link" href="#">Регистрация</a>
@@ -187,32 +189,46 @@
     </ul>
   </section>
   <section class="services">
-    <h2>Сервисы</h2>
-    <p>
-      Хороший интернет-магазин отличается от плохого не только ценами!<br/>
-      Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-    </p>
-    <button class="button selected-button" type="button" disabled>Доставка</button>
-    <button class="button" type="button">Гарантия</button>
-    <button class="button" type="button">Кредит</button>
-    <h3>Доставка</h3>
-    <p>
-      Мы с удовольствием доставим ваш товар прямо <br/>
-      к вашему подъезду совершенно бесплатно!<br/>
-      Ведь мы неплохо заработаем, <br/>
-      поднимая его на ваш этаж!
-    </p>
+    <div class="services-wrapper">
+      <div class="services-column">
+        <h2>Сервисы</h2>
+        <p>
+          Хороший интернет-магазин отличается от плохого не только ценами!<br/>
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+        </p>
+      </div>
+      <div class="services-slider">
+        <ul class="slider-buttons">
+          <li>
+            <button class="button selected-button" type="button" disabled>Доставка</button>
+          </li>
+          <li>
+            <button class="button" type="button">Гарантия</button>
+          </li>
+          <li>
+            <button class="button" type="button">Кредит</button>
+          </li>
+        </ul>
+        <div>
+          <h3>Доставка</h3>
+          <p>
+            Мы с удовольствием доставим ваш товар прямо <br/>
+            к вашему подъезду совершенно бесплатно!<br/>
+            Ведь мы неплохо заработаем, <br/>
+            поднимая его на ваш этаж!
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="description">
-    <div class="descrition-wrapper">
+    <div>
       <h2>Компания «Техномарт»</h2>
       <p>
         Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для
-        <br/>
         ремонта и строительства не оставит равнодушными любителей сэкономить на
-        гастарбайтерах. <br/>
-
-        Мы можем доставить ваш товар в самые отдаленные точки России!<br/>
+        гастарбайтерах.
+        Мы можем доставить ваш товар в самые отдаленные точки России!
         Техномарт работает со многими транспортными компаниями:
       </p>
       <ul class="partner-list">
@@ -221,12 +237,14 @@
         <li>ЖелДорЭкспедиция</li>
       </ul>
       <a href="#">Подробнее о компании</a>
+    </div>
+    <div>
       <h2>Контакты</h2>
       <p>
         Вы можете забрать товар сами, <br/>
         заехав в наш офис:
       </p>
-      <img src="img/map.png" width="300" height="158" alt="карта"/>
+      <img src="img/map.png" width="300" height="158" alt="карта"/><br>
       <a href="#">Заблудились? Напишите нам!</a>
     </div>
   </section>
