@@ -365,7 +365,6 @@ img {
 /*services*/
 .services {
   background-color: var(--basic-alice-blue);
-
 }
 
 .services-wrapper{
@@ -382,11 +381,14 @@ img {
 .services-slider{
   display: grid;
   grid-template-columns: 240px 1fr;
+  column-gap: 60px;
 }
+
 .slider-buttons{
   list-style: none;
 
 }
+
 
 .services p {
   font-family: "PT Sans", sans-serif;
@@ -406,10 +408,10 @@ img {
 .button {
   font-size: 21px;
   line-height: 30px;
-  background-color: var(--basic-gulf-blue);
   color: var(--basic-white);
+  background-color: var(--basic-gulf-blue);
   border: none;
-
+  width: 100%;
 }
 
 .button:not(.selected-button):hover {
@@ -465,8 +467,18 @@ img {
 
 }
 
+.top-footer{
+  width: 940px;
+  margin: 0 auto;
+}
+
 .footer-social {
   background-color: var(--basic-bunting);
+}
+
+.social-wrapper{
+  width: 940px;
+  margin: 0 auto;
 }
 
 .top-footer p {
@@ -637,6 +649,8 @@ label {
 
 .short-description {
   background-color: var(--basic-alice-blue);
+  width: 940px;
+  margin: 0 auto;
 }
 
 .short-description h2 {
