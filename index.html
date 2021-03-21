@@ -35,8 +35,6 @@
           </svg>
           <button type="submit"></button>
         </form>
-
-
         <a class="bookmark" href="#"> Закладки: 0 </a>
         <a class="basket" href="#"> Корзина: 0 </a>
         <a class="order" href="#"> Оформить заказ </a>
@@ -77,7 +75,7 @@
       <ul class="features-list">
         <li class="features-item1">
           <span class="new new1">
-            <p>New</p>
+            New
           </span>
           <h3>Материалы</h3>
           <a href="#">На любой вкус</a>
@@ -127,64 +125,64 @@
       </div>
       <ul class="products-list">
         <li class="catalog-item">
-          <div class="buy-bookmark-wrapper">
-            <button class="buy-button" type="button">Купить</button>
-            <button class="bookmark-button" type="button">В закладки</button>
-          </div>
-          <a href="#">
-            <div>
+            <div class="product-image-wrapper">
               <img src="img/9000.jpg" width="184" height="170" alt="Перфоратор BOSCH BFG 9000" />
             </div>
+            <a class="product-link" href="#">
             <h3>Перфоратор BOSCH BFG 9000</h3>
           </a>
+          <div class="buy-bookmark-wrapper">
+            <a class="buy-button" >Купить</a>
+            <a class="bookmark-button" >В закладки</a>
+          </div>
           <p class="old-price">32500 P.</p>
           <p class="new-price">25500 P.</p>
         </li>
         <li class="catalog-item">
-          <div class="buy-bookmark-wrapper">
-            <button class="buy-button" type="button">Купить</button>
-            <button class="bookmark-button" type="button">В закладки</button>
-          </div>
           <span class="new">
-            <p>New</p>
+            New
           </span>
-          <a href="#">
-            <div>
+            <div class="product-image-wrapper">
               <img src="img/3000.jpg" width="140" height="141" alt="Перфоратор BOSCH BFG 3000" />
             </div>
+            <a class="product-link" href="#">
             <h3>Перфоратор BOSCH BFG 3000</h3>
           </a>
+          <div class="buy-bookmark-wrapper">
+            <a class="buy-button" >Купить</a>
+            <a class="bookmark-button" >В закладки</a>
+          </div>
           <p class="old-price">22500 P.</p>
           <p class="new-price">15500 P.</p>
         </li>
         <li class="catalog-item">
-          <div class="buy-bookmark-wrapper">
-            <button class="buy-button" type="button">Купить</button>
-            <button class="bookmark-button" type="button">В закладки</button>
-          </div>
-          <a href="#">
-            <div>
+            <div class="product-image-wrapper">
               <img src="img/6000.jpg" width="154" height="150" alt="Перфоратор BOSCH BFG 6000" />
             </div>
+            <a class="product-link" href="#">
             <h3>Перфоратор BOSCH BFG 6000</h3>
           </a>
+          <div class="buy-bookmark-wrapper">
+            <a class="buy-button">Купить</a>
+            <a class="bookmark-button">В закладки</a>
+          </div>
           <p class="old-price">30500 P.</p>
           <p class="new-price">25500 P.</p>
         </li>
         <li class="catalog-item">
-          <div class="buy-bookmark-wrapper">
-            <button class="buy-button" type="button">Купить</button>
-            <button class="bookmark-button" type="button">В закладки</button>
-          </div>
           <span class="new">
-            <p>New</p>
+            New
           </span>
-          <a href="#">
-            <div>
+            <div class="product-image-wrapper">
               <img src="img/2000.jpg" width="140" height="141" alt="Перфоратор BOSCH BFG 2000">
             </div>
+            <a class="product-link" href="#">
             <h3>Перфоратор BOSCH BFG 2000</h3>
           </a>
+          <div class="buy-bookmark-wrapper">
+            <a class="buy-button" type="button">Купить</a>
+            <a class="bookmark-button" type="button">В закладки</a>
+          </div>
           <p class="old-price">22500 P.</p>
           <p class="new-price">12500 P.</p>
 
@@ -240,29 +238,25 @@
     </section>
     <section class="services">
       <div class="services-wrapper">
-        <div class="services-column">
           <h2>Сервисы</h2>
           <p>
-            Хороший интернет-магазин отличается от плохого не только ценами!
+            Хороший интернет-магазин отличается от плохого не только ценами!<br>
             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
           </p>
-        </div>
-        <div class="services-slider-buttons">
+          <div class="service-slider">
           <ul class="slider-buttons">
             <li>
-              <button class="button selected-button" type="button" disabled>Доставка</button>
+              <button class="service-slider-button selected-button" type="button" disabled>Доставка</button>
             </li>
             <li>
-              <button class="button" type="button">Гарантия</button>
+              <button class="service-slider-button" type="button">Гарантия</button>
             </li>
             <li>
-              <button class="button" type="button">Кредит</button>
+              <button class="service-slider-button" type="button">Кредит</button>
             </li>
           </ul>
-        </div>
-        <div class="service-slider">
           <ul class="service-slider-list">
-            <li class="service-slider-item1 slide slide-current">
+            <li class="service-slider-item1 service-slide  slide-current">
               <h3>Доставка</h3>
               <p>
                 Мы с удовольствием доставим ваш товар прямо к&#160;вашему подъезду совершенно бесплатно!
@@ -270,7 +264,7 @@
                 поднимая его на ваш этаж!
               </p>
             </li>
-            <li class="service-slider-item2 slide ">
+            <li class="service-slider-item2 service-slide">
               <h3>Гарантия</h3>
               <p>
                 Если купленный у нас товар поломается или заискрит,
@@ -280,7 +274,7 @@
                 Дом уж восстановите как-нибудь сами.
               </p>
             </li>
-            <li class="service-slider-item3 slide">
+            <li class="service-slider-item3 service-slide">
               <h3>Кредит</h3>
               <p>
                 Залезть в долговую яму стало проще!
@@ -392,7 +386,7 @@
         <input class="user-name" id="name" type="text" name="name" placeholder="Имя Фамилия">
       </p>
       <p>
-        <label class="visually-hidden" for="login-login">Ваш email:</label>
+        <label class="visually-hidden" for="login-login">Ваш e-mail:</label>
         <input class="user-email" id="login-login" type="email" name="login" placeholder="email@example.com">
       </p>
       <p class="comment"><label class="visually-hidden" for="comment">Текст письма</label>
