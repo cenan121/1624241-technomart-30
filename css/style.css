@@ -1480,6 +1480,8 @@ img {
   background-position: 0 0;
 }
 
+
+
 .bread-crumbs a {
   font-size: 13px;
   line-height: 18px;
@@ -1901,6 +1903,7 @@ margin-right: 16px;
   user-select: none;
 }
 
+
 .filter-input-checkbox:not(:checked) + label::before {
   content: "";
   position: absolute;
@@ -1910,7 +1913,9 @@ margin-right: 16px;
   height: 19px;
   border: 2px solid var(--basic-greylight);
   border-radius: 2px;
+  
 }
+
 
 .filter-input-checkbox:checked + label::after {
   content: "";
@@ -1921,7 +1926,15 @@ margin-right: 16px;
   left: -35px;
   background-repeat: no-repeat;
   background-position: 0 0;
+  fill: #B5B5B5;
 }
+
+
+
+
+
+
+
 
 .power {
   margin-top: 23px;
