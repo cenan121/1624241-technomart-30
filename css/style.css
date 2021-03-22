@@ -1236,7 +1236,7 @@ img {
   background-color: var(--basic-amaranth);
 }
 
-.description a {
+.description a:not(.map) {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -1265,7 +1265,7 @@ img {
   margin-bottom: 31px;
 }
 
-.contacts a {
+.contacts a:not(.map) {
   margin-top: 8px;
   padding: 11px 61px 9px 62px;
 }
@@ -2237,6 +2237,11 @@ box-sizing: border-box;
   width: 943px;
   height: 442px;
   border-top: 7px solid var(--basic-amaranth);
+}
+
+.modal-show {
+  display: block;
+  animation: bounce 0.6s;
 }
 
 .modal-map iframe {
