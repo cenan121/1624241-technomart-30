@@ -1071,6 +1071,7 @@ img {
   text-align: left;
   padding: 14px 0 18px 22px;
   box-shadow: inset 0px 1px 0px #405069, inset 0px -1px 0px #293449;
+  cursor: pointer;
 }
 
 .button:not(.selected-button):hover {
