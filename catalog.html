@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/style_min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body class="page-body inner-page">
     <header class="main-header">
@@ -29,7 +29,8 @@
             </a>
           </div>
           <form class="search">
-            <input class="search-field" type="text" placeholder="Поиск:" />
+            <label class="visually-hidden" for="search"></label>
+            <input class="search-field" type="text" id="search" placeholder="Поиск:" />
             <svg
               class="search-icon"
               width="17"
@@ -69,10 +70,12 @@
               </svg>
             Равшан Джамшутович
           </a>
-          <a class="icon-logout" href="#" aria-label="Кнопа-выхода-из-аккаунта"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 8.5L11.125 0V6H5.125V11H11.125V17L20 8.5Z" />
-            <path d="M2.10598 13.952V3.048C2.12398 2.672 2.27698 1.991 3.11598 1.991H8.14297V0H3.11598C0.937975 0 0.111975 1.81 0.0869751 3.027V13.973C0.111975 15.189 0.937975 17 3.11598 17H8.14297V15.01H3.11598C2.27698 15.01 2.12398 14.327 2.10598 13.952Z" />
-            </svg>
+          <a class="icon-logout" href="#" aria-label="Кнопа-выхода-из-аккаунта">
+            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 9L11.125 0.5V6.5H5.125V11.5H11.125V17.5L20 9Z" />
+              <path d="M2.10601 14.452V3.548C2.12401 3.172 2.27701 2.491 3.11601 2.491H8.14301V0.5H3.11601C0.938006 0.5 0.112006 2.31 0.0870056 3.527V14.473C0.112006 15.689 0.938006 17.5 3.11601 17.5H8.14301V15.51H3.11601C2.27701 15.51 2.12401 14.827 2.10601 14.452Z"/>
+              </svg>
+              
             </a>
           <a class="my-orders" href="#">Мои заказы</a>
           <a class="account" href="#">Личный кабинет</a>
@@ -93,10 +96,10 @@
     <main class="page-catalog">
       <div class="page-catalog-wrapper container">
         <ul class="bread-crumbs">
-          <li><a href="index.html" aria-label="Вернуться на главную страницу"></a> <svg class="home" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <li><a href="index.html" aria-label="Вернуться на главную страницу"> <svg class="home" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2 7.99999V12H6V7.99999H8V12H12V7.99999L7 3.51599L2 7.99999Z"/>
             <path d="M13.831 6.365L12 4.751V0H9.99998V2.987L7.33198 0.635C7.31198 0.618 7.28898 0.612 7.26798 0.598C7.24294 0.579705 7.21614 0.56396 7.18798 0.551C7.15708 0.540195 7.12529 0.532163 7.09298 0.527C7.06198 0.521 7.03198 0.515 6.99998 0.515C6.96898 0.515 6.93898 0.521 6.90798 0.527C6.87551 0.531919 6.84366 0.5403 6.81298 0.552C6.78498 0.563 6.75998 0.581 6.73298 0.598C6.71198 0.612 6.68798 0.618 6.66898 0.635L0.170976 6.365C0.0162401 6.50291 -0.0375953 6.72187 0.0355474 6.9158C0.10869 7.10974 0.293707 7.23862 0.500976 7.24C0.622907 7.24035 0.740711 7.19586 0.831976 7.115L6.99998 1.677L13.169 7.115C13.3778 7.27913 13.6784 7.25178 13.8542 7.05265C14.0299 6.85352 14.0198 6.55183 13.831 6.365Z"/>
-            </svg> </li>
+            </svg> </a> </li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Инструмент</a></li>
           <li>Перфораторы</li>
@@ -208,7 +211,7 @@
                 </li>
               </ul>
               <div class="sorting-arrows">
-                <button class="arrow arrow-active">
+                <button class="arrow arrow-active" aria-label="по возростанию">
                   <svg
                     width="11"
                     height="10"
@@ -219,7 +222,7 @@
                     <path d="M5.5 0L11 10L0 10" />
                   </svg>
                 </button>
-                <button class="arrow">
+                <button class="arrow" aria-label="по убыванию">
                   <svg
                     width="11"
                     height="10"
@@ -464,14 +467,15 @@
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            <a class="footer-tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          </p>
           <ul class="additional-nav">
             <li><a href="#">Материалы</a></li>
             <li><a href="#">Техника</a></li>
             <li><a href="#">Инструмент</a></li>
             <li><a href="#">Спецпредложения</a></li>
           </ul>
-    
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> <a class="footer-tel" href="tel:+78125550555">+7 (812) 555-05-55</a></p>
         </div>
       </section>
       <section class="footer-bottom">
@@ -495,7 +499,6 @@
               </svg></a>
           </li>
         </ul>
-    
         <p class="footer-mail">Обратная связь:<a href="mailto:mail@htmlacademy.ru"> mail@htmlacademy.ru</a></p>
         <p class="footer-copyright">
           Разработано —
