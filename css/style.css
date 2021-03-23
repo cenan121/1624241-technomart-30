@@ -117,7 +117,7 @@ img {
 .search {
   position: relative;
   width: 270px;
-  margin: 0 auto;
+  margin-right: 5px;
 }
 
 .search input {
@@ -201,15 +201,16 @@ img {
 .bookmark {
   position: relative;
   width: 150px;
-  padding-left: 43px;
+  padding-left: 29px;
   padding-right: 10px;
   box-sizing: border-box;
+  margin-left: 9px;
 }
 
 .bookmark::before {
   content: "";
   position: absolute;
-  left: 20px;
+  left: 6px;
   top: 13px;
   width: 14px;
   height: 16px;
@@ -229,8 +230,8 @@ img {
 
 .basket {
   position: relative;
-  width: 150px;
-  padding-left: 49px;
+  width: 136px;
+  padding-left: 35px;
   padding-right: 10px;
   box-sizing: border-box;
 }
@@ -238,7 +239,7 @@ img {
 .basket::before {
   content: "";
   position: absolute;
-  left: 26px;
+  left: 12px;
   top: 13px;
   width: 15px;
   height: 15px;
